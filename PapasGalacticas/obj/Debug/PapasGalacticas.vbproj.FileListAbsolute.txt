@@ -33,3 +33,15 @@ C:\Users\oscar\Desktop\panass\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.vb
 C:\Users\oscar\Desktop\panass\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.exe
 C:\Users\oscar\Desktop\panass\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.xml
 C:\Users\oscar\Desktop\panass\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.pdb
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\bin\Debug\PapasGalacticas.exe.config
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\bin\Debug\PapasGalacticas.exe
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\bin\Debug\PapasGalacticas.pdb
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\bin\Debug\PapasGalacticas.xml
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.vbprojAssemblyReference.cache
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.Form1.resources
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.Resources.resources
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.vbproj.GenerateResource.cache
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.vbproj.CoreCompileInputs.cache
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.exe
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.xml
+C:\Users\miria\Source\Repos\OzkarG\Panas\PapasGalacticas\obj\Debug\PapasGalacticas.pdb

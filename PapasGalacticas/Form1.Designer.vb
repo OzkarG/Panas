@@ -29,6 +29,9 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -100,11 +103,45 @@ Partial Class Form1
         Me.Button3.Text = "otra idea"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(12, 186)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(306, 46)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "NADIE TIENE IDEA DE QUÉ " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "VA A HACER PARA EL PROYECTO"
+        Me.Label3.Visible = False
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(70, 265)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(129, 23)
+        Me.Button4.TabIndex = 8
+        Me.Button4.Text = "IDEAS DE MIRIAM"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(228, 74)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(436, 13)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "PÓNGANSE A VER LOS VIDEOS DE OT QUE LES ENSEÑARÍA EN EL TEC"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
@@ -127,4 +164,7 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Label4 As Label
 End Class

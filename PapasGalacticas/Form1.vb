@@ -16,4 +16,8 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Label1.Text = "comer palomas"
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Label3.Visible = True
+    End Sub
 End Class
