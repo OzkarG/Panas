@@ -36,6 +36,7 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -168,11 +169,22 @@ Partial Class Form1
         Me.Label6.Text = "Aguila poderosa se le ocurrio hacer un chatbot 2.0 de su original, pero mas prroi" &
     "o"
         '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(696, 32)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(56, 17)
+        Me.CheckBox1.TabIndex = 13
+        Me.CheckBox1.Text = "Limpio"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label5)
@@ -208,4 +220,5 @@ Partial Class Form1
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents CheckBox1 As CheckBox
 End Class

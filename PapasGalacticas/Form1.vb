@@ -47,4 +47,43 @@
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
         PictureBox2.Visible = True
     End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = True Then
+            PictureBox1.Visible = False
+            PictureBox2.Visible = False
+            Label1.Visible = False
+            Label2.Visible = False
+            Label3.Visible = False
+            Label4.Visible = False
+            Label5.Visible = False
+            Label6.Visible = False
+            Button1.Visible = False
+            Button2.Visible = False
+            Button3.Visible = False
+            Button4.Visible = False
+            LinkLabel1.Visible = False
+
+        End If
+
+        If CheckBox1.Checked = False Then
+            PictureBox1.Visible = True
+            PictureBox2.Visible = False
+            Label1.Visible = True
+            Label2.Visible = True
+            Label3.Visible = True
+            Label4.Visible = True
+            Label5.Visible = False
+            Label6.Visible = False
+            Button1.Visible = True
+            Button2.Visible = True
+            Button3.Visible = True
+            Button4.Visible = True
+            LinkLabel1.Visible = True
+
+        End If
+
+
+
+    End Sub
 End Class
