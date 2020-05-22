@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -32,7 +33,10 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -67,7 +71,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.PapasGalacticas.My.Resources.Resources._98fef7dd85d83a6c7accf07be67cb85a
-        Me.PictureBox1.Location = New System.Drawing.Point(325, 186)
+        Me.PictureBox1.Location = New System.Drawing.Point(324, 186)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(167, 138)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -134,11 +138,32 @@ Partial Class Form1
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "PÓNGANSE A VER LOS VIDEOS DE OT QUE LES ENSEÑARÍA EN EL TEC"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(605, 234)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(134, 13)
+        Me.Label5.TabIndex = 10
+        Me.Label5.Text = "ya apareci, ahora clikeame"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(574, 250)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(183, 111)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 11
+        Me.PictureBox2.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label3)
@@ -152,6 +177,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -167,4 +193,6 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Button4 As Button
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
