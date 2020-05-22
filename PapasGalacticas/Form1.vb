@@ -16,7 +16,7 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Label1.Text = "comer palomas"
         Label5.Visible = True
-        PictureBox2.Visible = False
+
 
     End Sub
 
@@ -27,10 +27,24 @@
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label5.Visible = False
         PictureBox2.Visible = False
+        Label6.Visible = False
 
 
 
 
+    End Sub
 
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Label6.Visible = True
+
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+        PictureBox2.Visible = True
     End Sub
 End Class

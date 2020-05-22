@@ -35,6 +35,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -157,11 +158,22 @@ Partial Class Form1
         Me.PictureBox2.TabIndex = 11
         Me.PictureBox2.TabStop = False
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(351, 409)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(388, 13)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Aguila poderosa se le ocurrio hacer un chatbot 2.0 de su original, pero mas prroi" &
+    "o"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -195,4 +207,5 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label6 As Label
 End Class
