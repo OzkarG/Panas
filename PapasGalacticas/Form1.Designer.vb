@@ -37,8 +37,12 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.btnAños = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -87,7 +91,7 @@ Partial Class Form1
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(186, 13)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Banda, denme ideas para el proyecto "
+        Me.Label2.Text = "Banda, demen ideas para el proyecto "
         '
         'Button2
         '
@@ -179,11 +183,40 @@ Partial Class Form1
         Me.CheckBox1.Text = "Limpio"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(16, 407)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(32, 20)
+        Me.NumericUpDown1.TabIndex = 14
+        Me.NumericUpDown1.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(13, 386)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(110, 13)
+        Me.Label7.TabIndex = 15
+        Me.Label7.Text = "Cuantos años tienen?"
+        '
+        'btnAños
+        '
+        Me.btnAños.Location = New System.Drawing.Point(54, 407)
+        Me.btnAños.Name = "btnAños"
+        Me.btnAños.Size = New System.Drawing.Size(33, 23)
+        Me.btnAños.TabIndex = 16
+        Me.btnAños.Text = "si"
+        Me.btnAños.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnAños)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox2)
@@ -202,6 +235,7 @@ Partial Class Form1
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -221,4 +255,7 @@ Partial Class Form1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label6 As Label
     Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents Label7 As Label
+    Friend WithEvents btnAños As Button
 End Class

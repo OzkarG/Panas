@@ -86,4 +86,8 @@
 
 
     End Sub
+
+    Private Sub btnAños_Click(sender As Object, e As EventArgs) Handles btnAños.Click
+        MessageBox.Show(NumericUpDown1.Value & " años sin bañarte jsjsjs")
+    End Sub
 End Class
